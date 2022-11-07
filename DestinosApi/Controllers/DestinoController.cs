@@ -39,7 +39,7 @@ namespace DestinosApi.Controllers
         public async Task<IActionResult>  Post(DestinoController destino){
             _repository.AddDestino(destino);
             return await _repository.SaveChangesAsync() 
-            ? Ok ("Usuário adicionado") : BadRequest ("Algo deu errado");
+            ? Ok ("Destino adicionado") : BadRequest ("Algo deu errado");
         }
 
         [HttpPost]
