@@ -1,0 +1,7 @@
+C:\Users\Remakker\Desktop\AgViagensApi\DestinosApi\obj\Debug\net6.0\DestinosApi.csproj.AssemblyReference.cache
+C:\Users\Remakker\Desktop\AgViagensApi\DestinosApi\obj\Debug\net6.0\DestinosApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Remakker\Desktop\AgViagensApi\DestinosApi\obj\Debug\net6.0\DestinosApi.AssemblyInfoInputs.cache
+C:\Users\Remakker\Desktop\AgViagensApi\DestinosApi\obj\Debug\net6.0\DestinosApi.AssemblyInfo.cs
+C:\Users\Remakker\Desktop\AgViagensApi\DestinosApi\obj\Debug\net6.0\DestinosApi.csproj.CoreCompileInputs.cache
+C:\Users\Remakker\Desktop\AgViagensApi\DestinosApi\obj\Debug\net6.0\DestinosApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Remakker\Desktop\AgViagensApi\DestinosApi\obj\Debug\net6.0\DestinosApi.MvcApplicationPartsAssemblyInfo.cache
