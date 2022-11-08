@@ -12,10 +12,8 @@ namespace DestinosApi.Repository
 
         Task<Destino> GetDestinoById(int id);
 
-        void AddDestino(Destino destino);
+        void addDestino(Destino destino);
 
-         
-
-        Task<bool> SaveChangesAsync();
+        Task<bool> SaveChangeAsync();
     }
 }

@@ -12,10 +12,20 @@ namespace DestinosApi.Database
 {
     public DestinoDbContext(DbContextOptions<DestinoDbContext>
        options) : base (options){
-
-       } 
-       public DbSet<Destino> Destino{get; set;}
+           
+        } 
+       public DbSet<Destino> Destinos {get; set;}
       
+      protected override void OnModelCreating(ModelBuilder modelBuilder){
+            var destino = modelBuilder.Entity<Destino>();
+            destino.ToTable  ("destinos");
+            destino.HasKey(x=> x.Id);
+            destino.Property(x=> x.Id).HasColumnName("id").ValueGeneratedOnAdd();
+            destino.Property(x=> x.Cidade).HasColumnName("destino").IsRequired();
+            destino.Property(x=> x.Uf).HasColumnName("uf").IsRequired();
+            destino.Property(x=> x.Valor).HasColumnName("valor").IsRequired();
+
 }
 
+}
 }
